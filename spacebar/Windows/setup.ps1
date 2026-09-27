@@ -7,7 +7,7 @@ if ($continuationQuestion -eq "y" -or $continuationQuestion -eq "Y"){
    
    Write-Host "Continuing to setup spacebar"
 }
-elseif ($continuationQuestion -eq "n" or $continuationQuestion -eq "N"){
+elseif ($continuationQuestion -eq "n" -or $continuationQuestion -eq "N"){
    Clear-Host
    
    Write-Host "Okay, Thank you!"
